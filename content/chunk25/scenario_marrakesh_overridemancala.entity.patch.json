@@ -1,0 +1,109 @@
+{
+  "tempHash": "00048E86C447E109",
+  "tbluHash": "00D68646CD3CE448",
+  "patch": [
+    {
+      "AddExternalScene": "[assembly:/_pro/scenes/missions/marrakesh/marrakesh_outfits.brick].pc_entitytype"
+    },
+  	{
+      "AddEntity": [
+        "963e86c863b90d2a",
+        {
+		      "parent": {
+            "ref": "1a2bb1d82f0afa0a",
+            "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/npc_mission_spider.brick].pc_entitytype"
+          },
+          "name": "Melee_Janbiya",
+          "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+          "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+          "properties": {
+            "m_RepositoryId": {
+              "type": "ZGuid",
+              "value": "3dbd9ee9-f887-41bb-83bf-386324d11485"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "SubEntityOperation": [
+        "3a5e6b3fcde1f289",
+        {
+          "SetPropertyValue": {
+            "property_name": "m_rMainItemKey",
+            "value": "963e86c863b90d2a"
+          }
+        }
+      ]
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "c486863bfbbba9ef",
+            "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/marrakesh_outfits.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_RepositoryId": {
+            "type": "ZGuid",
+            "value": "f6657618-d723-419f-a71b-84d0e93402e3"
+          }
+        }
+      }
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "4443afad56a4cce7",
+            "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_RepositoryId": {
+            "type": "ZGuid",
+            "value": "be4e7b4e-d895-47c1-979d-d79bfbe79a02"
+          }
+        }
+      }
+    },
+	  {
+      "AddEntity": [
+        "52630cd2df5a1e71",
+        {
+          "parent": {
+            "ref": "7e50817e3164404e",
+            "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
+          },
+          "name": "Riffle_TAC-4 AR Stealth",
+          "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+          "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+          "properties": {
+            "m_RepositoryId": {
+              "type": "ZGuid",
+              "value": "7373fafa-7adb-4c14-ac02-225895f9eb7f"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "70ab7cc95cb8c7d8",
+            "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_rMainItemKey": {
+            "type": "SEntityTemplateReference",
+            "value": "52630cd2df5a1e71"
+          }
+        }
+      }
+    }
+  ],
+  "patchVersion": 6
+}

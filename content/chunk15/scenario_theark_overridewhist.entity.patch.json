@@ -1,0 +1,39 @@
+{
+    "tempHash": "000DC47AA2A17BFC",
+    "tbluHash": "0064D2D9AE247E8B",
+    "patch": [
+		{
+			"AddPropertyOverride": {
+				"entities": [
+					{
+						"ref": "aee452d415eb536f",
+						"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+					}
+				],
+                "properties": {
+                    "m_RepositoryId": {
+                      "type": "ZGuid",
+                      "value": "6d4c88f3-9a09-453c-9a6e-a081f1136bf3"
+                    }
+                }
+			}
+		},
+		{
+			"AddPropertyOverride": {
+				"entities": [
+					{
+						"ref": "0a061f9befd93be4",
+						"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+					}
+				],
+                "properties": {
+                    "m_RepositoryId": {
+                      "type": "ZGuid",
+                      "value": "b2321154-4520-4911-9d94-9256b85e0983"
+                    }
+                }
+			}
+		}
+    ],
+    "patchVersion": 6
+  }

@@ -1,0 +1,128 @@
+{
+  "tempHash": "00BAC180AAB6FB31",
+  "tbluHash": "0008892CD17F0801",
+  "patch": [
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "ddbaba7aa04670d0",
+            "externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_RepositoryId": {
+            "type": "ZGuid",
+            "value": "21152383-6d79-436c-b359-0f8b4f5ed4a0"
+          }
+        }
+      }
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "d420ae18ebcc8991",
+            "externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_RepositoryId": {
+            "type": "ZGuid",
+            "value": "f93b99a3-aef6-419f-b303-59470577696d"
+          }
+        }
+      }
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "90ca3e68979b09bf",
+            "externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_mTransform": {
+            "type": "SMatrix43",
+            "value": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": -180
+            },
+            "position": {
+                "x": -38.682830810546875,
+                "y": 246.54500427246094,
+                "z": -13
+            }
+            }
+          }
+        }
+      }
+    },
+    {
+      "AddEntity": [
+        "900aa803a5fdcae9",
+        {
+          "parent": {
+            "ref": "2674e51029111de9",
+            "externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+          },
+          "name": "Melee_Ice Pick",
+          "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+          "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+          "properties": {
+            "m_RepositoryId": {
+              "type": "ZGuid",
+              "value": "76d1f44c-8a78-462a-a39c-23d4101f4d6f"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "ae3e9ab3c51012fd",
+        {
+          "parent": "900aa803a5fdcae9",
+          "name": "ItemSpawnerExtra",
+          "factory": "[modules:/zitemspawner.class].pc_entitytype",
+          "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+          "properties": {
+            "m_mTransform": {
+              "type": "SMatrix43",
+            "value": {
+              "rotation": {
+                "x": 45,
+                "y": 90,
+                "z": 0
+              },
+              "position": {
+                "x": -50.5,
+                "y": 112.5,
+                "z": 8
+              },
+              "scale": {
+                "x": 0.9999982292970881,
+                "y": 1.0000008325136813,
+                "z": 0.9999996968042353
+              }
+            }
+            },
+            "m_rMainItemKey": {
+              "type": "SEntityTemplateReference",
+              "value": "900aa803a5fdcae9"
+            },
+            "m_eidParent": {
+              "type": "SEntityTemplateReference",
+              "value": "fffffffffffffffe",
+              "postInit": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "patchVersion": 6
+}

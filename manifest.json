@@ -1,0 +1,10 @@
+{
+    "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+    "version": "1.0.1",
+    "id": "Furuchooo.FreelancerCollectathon",
+    "name": "Freelancer Collectathon",
+    "description": "More items can be gathered from maps",
+    "authors": ["Furuchooo"],
+    "contentFolders": ["content"],
+    "frameworkVersion": "2.33.23"
+}

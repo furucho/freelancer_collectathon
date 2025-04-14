@@ -1,0 +1,74 @@
+{
+  "tempHash": "00AC32D2CCC449A7",
+  "tbluHash": "00C63AC62C8E65C9",
+  "patch": [
+    {
+      "AddExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/coastaltown_outfits.brick].pc_entitytype"
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "21b68a810ca47834",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_RepositoryId": {
+            "type": "ZGuid",
+            "value": "1264f20b-b901-4d36-bc03-a9115709b531"
+          }
+        }
+      }
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "cc2a03c276e52133",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_RepositoryId": {
+            "type": "ZGuid",
+            "value": "341ba426-d52d-4ae3-97a9-40b9b3633d76"
+          }
+        }
+      }
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "9eaaff792ff9b9f8",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/coastaltown_outfits.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_RepositoryId": {
+            "type": "ZGuid",
+            "value": "d5728a0f-fe8d-4e2d-9350-03cf4243c98e"
+          }
+        }
+      }
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "8c2bb18e0c25d260",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/coastaltown_outfits.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_RepositoryId": {
+            "type": "ZGuid",
+            "value": "7f31d897-a62f-448c-be0d-79d565e2faa7"
+          }
+        }
+      }
+    }
+  ],
+  "patchVersion": 6
+}
