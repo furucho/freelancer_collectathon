@@ -37,7 +37,10 @@
 			"AddEntity": [
 			  "713614d86da7b446",
 			  {
-				"parent": "64070917b7c918b4",
+				"parent": {
+					"ref": "c361c44d6b9be54b",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
 				"name": "ItemSpawnerGoldballer",
 				"factory": "[modules:/zitemspawner.class].pc_entitytype",
 				"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",

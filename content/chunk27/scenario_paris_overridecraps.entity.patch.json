@@ -30,7 +30,7 @@
         "667ad305337af02f",
         {
           "parent": {
-            "ref": "22dac081885a58af",
+            "ref": "3f477559c4c169db",
             "externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
           },
           "name": "ItemSpawnerExtra",

@@ -37,6 +37,28 @@
       ]
     },
     {
+      "SubEntityOperation": [
+        "3a5e6b3fcde1f289",
+        {
+          "SetPropertyValue": {
+            "property_name": "m_mTransform",
+            "value": {
+              "rotation": {
+                  "x": 90,
+                  "y": 90,
+                  "z": 0
+              },
+              "position": {
+                  "x": 5.79762601852417,
+                  "y": 16.50571060180664,
+                  "z": 1.0763490200042725
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
       "AddPropertyOverride": {
         "entities": [
           {

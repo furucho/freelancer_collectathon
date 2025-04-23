@@ -35,33 +35,6 @@
       }
     },
     {
-      "AddPropertyOverride": {
-        "entities": [
-          {
-            "ref": "90ca3e68979b09bf",
-            "externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
-          }
-        ],
-        "properties": {
-          "m_mTransform": {
-            "type": "SMatrix43",
-            "value": {
-              "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": -180
-            },
-            "position": {
-                "x": -38.682830810546875,
-                "y": 246.54500427246094,
-                "z": -13
-            }
-            }
-          }
-        }
-      }
-    },
-    {
       "AddEntity": [
         "900aa803a5fdcae9",
         {

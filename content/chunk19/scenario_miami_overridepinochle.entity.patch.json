@@ -72,9 +72,9 @@
                   "z": 180
                 },
                 "position": {
-                    "x": -156.8,
-                    "y": -40.89,
-                    "z": 3.93
+                  "x": -156.8,
+                  "y": -39.8,
+                  "z": 3.93
                 },
                 "scale": {
                   "x": 0.999999576048908,
@@ -114,9 +114,9 @@
                 "z": 0
               },
               "position": {
-                  "x": -167,
-                  "y": -57.5,
-                  "z": 18.45
+                "x": -167,
+                "y": -57.5,
+                "z": 18.45
               },
               "scale": {
                 "x": 0.999999576048908,
@@ -155,6 +155,58 @@
           }
         }
       }
+    },
+    {
+      "AddEntity": [
+        "397c024ecc416ebf",
+        {
+          "parent": {
+            "ref": "bb0fe14a5761175e",
+            "externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+          },
+          "name": "Displaycase_Concept9",
+          "factory": "00EBB64985340912",
+          "blueprint": "00E57C3C03E967C2",
+          "properties": {
+            "m_mTransform": {
+              "type": "SMatrix43",
+              "value": {
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 89.56271441197853
+                },
+                "position": {
+                  "x": -8.15313720703125,
+                  "y": -0.8921550512313843,
+                  "z": -0.0024129999801516533
+                },
+                "scale": {
+                  "x": 1.0000004317670381,
+                  "y": 1.0000004317670381,
+                  "z": 1
+                }
+              }
+            },
+            "DiffuseColor": {
+              "type": "SColorRGB",
+              "value": "#2c4dde"
+            },
+            "OverrideInherit": {
+              "type": "bool",
+              "value": true
+            },
+            "m_eidParent": {
+              "type": "SEntityTemplateReference",
+              "value": {
+                "ref": "2de2bf4cc0e73b68",
+                "externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+              },
+              "postInit": true
+            }
+          }
+        }
+      ]
     }
   ],
   "patchVersion": 6
