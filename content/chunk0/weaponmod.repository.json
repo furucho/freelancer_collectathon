@@ -1,5 +1,8 @@
 {
     "2f6eec38-45ea-49df-83a2-0b98a858e60a": {
         "MainAnimSetType": "EAST_ASSULT"
+    },
+    "f6657618-d723-419f-a71b-84d0e93402e3": {
+        "MainAnimSetType": "EAST_SMALLOBJ"
     }
 }
