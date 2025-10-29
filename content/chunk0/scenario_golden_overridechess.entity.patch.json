@@ -2,42 +2,63 @@
   "tempHash": "00356B7C09C23F8E",
   "tbluHash": "00F720F7AF1A5392",
   "patch": [
-    {
-      "AddEntity": [
-        "66363036ad3c137b",
-        {
-          "parent": {
-            "ref": "88766827a71fc150",
-            "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
-          },
-          "name": "Pistol_ICA19 Classic Baller",
-          "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-          "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-          "properties": {
-            "m_RepositoryId": {
-              "type": "ZGuid",
-              "value": "ff340698-bc83-479c-8917-16d99b39406c"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "AddPropertyOverride": {
-        "entities": [
-          {
-            "ref": "817dc78cf9671ba0",
-            "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
-          }
-        ],
-        "properties": {
-          "m_rMainItemKey": {
-            "type": "SEntityTemplateReference",
-            "value": "66363036ad3c137b"
-          }
-        }
-      }
-    }
-  ],
-  "patchVersion": 6
+	{
+		"AddEntity": [
+			"621cb96beb58a507",
+			{
+				"parent": {
+            		"ref": "88766827a71fc150",
+            		"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+          		},
+				"name": "ItemKey_Melee_Sceptre_Model",
+				"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+				"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+				"properties": {
+					"m_RepositoryId": {
+						"type": "ZGuid",
+						"value": "706cb615-e66d-49f3-86bb-899fa7117bcf"
+					}
+				}
+			}
+		]
+	},
+	{
+		"AddEntity": [
+			"d7f4ab11473aaf47",
+			{
+				"parent": "621cb96beb58a507",
+				"name": "ItemSpawner",
+				"factory": "[modules:/zitemspawner.class].pc_entitytype",
+				"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+				"properties": {
+					"m_mTransform": {
+						"type": "SMatrix43",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 135.9813845128091
+							},
+							"position": {
+								"x": -3.870017051696778,
+								"y": -56.59347152709961,
+								"z": 63.23477935791016
+							}
+						}
+					},
+					"m_rMainItemKey": {
+						"type": "SEntityTemplateReference",
+						"value": "621cb96beb58a507",
+						"postInit": true
+					},
+					"m_eidParent": {
+						"type": "SEntityTemplateReference",
+						"value": "fffffffffffffffe",
+						"postInit": true
+					}
+				}
+			}
+		]
+	}
+  ]
 }
