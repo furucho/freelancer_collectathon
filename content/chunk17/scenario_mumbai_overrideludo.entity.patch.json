@@ -1,0 +1,134 @@
+{
+	"tempHash":"00B03EB467FEA625",
+	"tbluHash":"00184B3FC2B4B0AB",
+	"patch":[
+		{
+			"SubEntityOperation":[
+				"dcf795d7fab17764",
+				{
+					"SetPropertyValue":{
+						"property_name":"m_RepositoryId",
+						"value":"f5d0b800-bf37-41ff-bd19-4c04e3b69754"
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+			  "64070917b7c918b4",
+			  {
+				"parent": {
+					"ref": "04767219c9287777",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				"name": "Pistol_ICA19 Goldballer",
+				"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+				"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+				"properties": {
+				  "m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "6eccc7e1-e31b-42de-8f84-b88d8e0032ea"
+				  }
+				}
+			  }
+			]
+		},
+		{
+			"AddEntity": [
+			  "713614d86da7b446",
+			  {
+				"parent": {
+					"ref": "c361c44d6b9be54b",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				"name": "ItemSpawnerGoldballer",
+				"factory": "[modules:/zitemspawner.class].pc_entitytype",
+				"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+				"properties": {
+				  "m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+					  "rotation": {
+						"x": 63.5,
+						"y": 35,
+						"z": 180
+					  },
+					  "position": {
+						"x": -45.8,
+						"y": 36.45,
+						"z": 16.5
+					  },
+					  "scale": {
+						"x": 1.000000507435332,
+						"y": 1.000000507435332,
+						"z": 1
+					  }
+					}
+				  },
+				  "m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "64070917b7c918b4"
+				  },
+				  "m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"AddEntity": [
+			  "3a016a34a7cca9cc",
+			  {
+				"parent": {
+					"ref": "c361c44d6b9be54b",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				}, 
+				"name": "Melee_Fiberwire",
+				"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+				"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+				"properties": {
+				  "m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "1a11a060-358c-4054-98ec-d3491af1d7c6"
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"AddPropertyOverride": {
+				"entities": [
+					{
+						"ref": "277f074c4581c8d6",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				],
+				"properties": {
+					"m_rMainItemKey": {
+						"type": "SEntityTemplateReference",
+						"value": "3a016a34a7cca9cc"
+					}
+				}
+			}
+		  },
+		  {
+			"AddPropertyOverride": {
+				"entities": [
+					{
+						"ref": "17b107d5d64c2127",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				],
+				"properties": {
+					"m_nWeaponIndex": {
+						"type": "int32",
+						"value": 5
+					}
+				}
+			}
+		  }
+	],
+	"patchVersion":6
+}

@@ -1,0 +1,59 @@
+{
+	"tempHash": "005764DFC88FED44",
+	"tbluHash": "00EAC09F607BD5E0",
+	"patch": [
+	  {
+		"RemovePropertyOverride": {
+		  "entities": [
+			{
+			  "ref": "faeee27a9504210e",
+			  "externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+			}
+		  ],
+		  "properties": {
+			"m_RepositoryId": {
+			  "type": "ZGuid",
+			  "value": "6e4afb04-417e-4cfc-aaa2-43f3ecca9037"
+			}
+		  }
+		}
+	  },
+	  {
+		"AddEntity": [
+		  "13f75f971d823e5d",
+		  {
+			"parent": {
+			  "ref": "88766827a71fc150",
+			  "externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+			},
+			"name": "Pistol_ICA 19 Homemade",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+			  "m_RepositoryId": {
+				"type": "ZGuid",
+				"value": "b8ec525e-8de3-4b9a-9b2a-97eb6a8dd9f6"
+			  }
+			}
+		  }
+		]
+	  },
+	  {
+		"AddPropertyOverride": {
+			"entities": [
+				{
+					"ref": "372ad68feb4051f3",
+					"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "13f75f971d823e5d"
+				}
+			}
+		}
+	  }
+	],
+	"patchVersion": 6
+  }

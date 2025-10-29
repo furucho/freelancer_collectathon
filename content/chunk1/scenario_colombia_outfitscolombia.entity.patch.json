@@ -1,0 +1,42 @@
+{
+  "tempHash": "00CB2F3691EDFEBB",
+  "tbluHash": "00F8D29B111F0250",
+  "patch": [
+		{
+			"AddEntity": [
+			  "6d964c1098e57b2a",
+			  {
+          "parent": "22d301dcfa4be9b3",
+          "name": "AR_Shashka A33 H",
+          "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+          "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+          "properties": {
+            "m_RepositoryId": {
+              "type": "ZGuid",
+              "value": "f5ebb935-9bec-422b-b772-37adc3ba23db"
+            }
+          }
+			  }
+			]
+		},
+    {
+      "SubEntityOperation": [
+        "22d301dcfa4be9b3",
+        {
+          "SetPropertyValue": {
+		        "property_name": "m_AvailableWeaponKeys",
+            "value": [
+              "9a1230ebb8bc2d11",
+              "9f0ac1c8d4ac1a69",
+              "325e3938e9719c72",
+              "42a7b62e7bc43980",
+              "754e62e2a0943f9b",
+              "6d964c1098e57b2a"
+            ]
+		      }
+        }
+      ]
+    }
+  ],
+  "patchVersion": 6
+}

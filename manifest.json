@@ -1,16 +1,10 @@
 {
     "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-    "version": "1.0.0",
-    "id": "Furuchooo.FreelancerCollectathonCSE",
-    "name": "Freelancer Collectathon for the Comfy Safehouse Expansion",
-    "description": "More weapons will be available on the maps",
+    "version": "1.0.1",
+    "id": "Furuchooo.FreelancerCollectathon",
+    "name": "Freelancer Collectathon",
+    "description": "More items can be gathered from maps",
     "authors": ["Furuchooo"],
     "contentFolders": ["content"],
-    "frameworkVersion": "2.33.23",
-    "requirements": [
-        ["WINNODD.Y1DLCWeaponsForFreelancer", ">=2.1.0"]
-    ],
-    "loadAfter": [
-        "WINNODD.Y1DLCWeaponsForFreelancer"
-    ]
+    "frameworkVersion": "2.33.23"
 }

@@ -1,0 +1,41 @@
+{
+  "tempHash": "008B1B203C9F6275",
+  "tbluHash": "00342E071F8F2181",
+  "patch": [
+    {
+      "AddEntity": [
+        "8c9edd0429a4f903",
+        {
+          "parent": "e3f9ebb35328739b",
+          "name": "AR_RS-15",
+          "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+          "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+          "properties": {
+            "m_RepositoryId": {
+              "type": "ZGuid",
+              "value": "2f6eec38-45ea-49df-83a2-0b98a858e60a"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "SubEntityOperation": [
+        "e3f9ebb35328739b",
+        {
+          "SetPropertyValue": {
+		      "property_name": "m_AvailableWeaponKeys",
+            "value": [
+                "37bb91941acdf9ce",
+                "2ec45d3c752fb6fc",
+                "d5d0976645501404",
+                "4c5f77b8fb0e3875",
+                "8c9edd0429a4f903"
+			      ]
+		      }
+        }
+      ]
+    }
+  ],
+  "patchVersion": 6
+}

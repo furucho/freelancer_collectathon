@@ -1,0 +1,171 @@
+{
+  "tempHash": "00598B6364BC39F5",
+  "tbluHash": "004ACDA3BB626CA1",
+  "patch": [
+    {
+      "AddExternalScene": "[assembly:/_pro/scenes/missions/paris/outfits_paris.brick].pc_entitytype"
+    },
+    {
+      "AddEntity": [
+        "22dac081885a58af",
+        {
+          "parent": {
+            "ref": "3f477559c4c169db",
+            "externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+          },
+          "name": "Pistol_ICA19 Silverballer",
+          "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+          "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+          "properties": {
+            "m_RepositoryId": {
+              "type": "ZGuid",
+              "value": "e70adb5b-0646-4f88-bd4a-85bea7a2a654"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "667ad305337af02f",
+        {
+          "parent": {
+            "ref": "3f477559c4c169db",
+            "externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+          },
+          "name": "ItemSpawnerExtra",
+          "factory": "[modules:/zitemspawner.class].pc_entitytype",
+          "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+          "properties": {
+            "m_mTransform": {
+              "type": "SMatrix43",
+              "value": {
+                "rotation": {
+                  "x": 0,
+                  "y": 49.82655574869671,
+                  "z": -180
+                },
+                "position": {
+                  "x": -136.13330078125,
+                  "y": 35.55567932128906,
+                  "z": 15.5631103515625
+                },
+                "scale": {
+                  "x": 0.999999576048908,
+                  "y": 1,
+                  "z": 0.999999576048908
+                }
+              }
+            },
+            "m_rMainItemKey": {
+              "type": "SEntityTemplateReference",
+              "value": "22dac081885a58af"
+            },
+            "m_eidParent": {
+              "type": "SEntityTemplateReference",
+              "value": "fffffffffffffffe",
+              "postInit": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "9699e90ef41768a4",
+            "externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_RepositoryId": {
+            "type": "ZGuid",
+            "value": "ba102d90-b8c9-47b9-97eb-b462344b46c3"
+          }
+        }
+      }
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "f9e0dcb4d38828db",
+            "externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_RepositoryId": {
+            "type": "ZGuid",
+            "value": "5a784510-e460-4d00-ba61-716059856d4d"
+          }
+        }
+      }
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "3b32ccf5b9c878e3",
+            "externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_RepositoryId": {
+            "type": "ZGuid",
+            "value": "f2a74ebc-8f07-4845-b421-2339988e1994"
+          }
+        }
+      }
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "7b8e4e08b82dc701",
+            "externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_RepositoryId": {
+            "type": "ZGuid",
+            "value": "5a784510-e460-4d00-ba61-716059856d4d"
+          }
+        }
+      }
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "d2edc56aac6fec23",
+            "externalScene": "[assembly:/_pro/scenes/missions/paris/outfits_paris.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_RepositoryId": {
+            "type": "ZGuid",
+            "value": "f91cf558-04a5-4fd8-8814-b1c765668b39"
+          }
+        }
+      }
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "6f46eb3819bfa503",
+            "externalScene": "[assembly:/_pro/scenes/missions/paris/outfits_paris.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_RepositoryId": {
+            "type": "ZGuid",
+            "value": "304fd49f-0624-4691-8506-149a4b16808e"
+          }
+        }
+      }
+    }
+  ],
+  "patchVersion": 6
+}

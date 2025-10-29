@@ -1,0 +1,125 @@
+{
+  "tempHash": "0040FDF7F6E1AFD1",
+  "tbluHash": "00CE0713C960BF8E",
+  "patch": [
+    {
+      "AddEntity": [
+        "765e5841a7fe71a2",
+        {
+          "parent": {
+            "ref": "947a858c037f5078",
+            "externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+          },
+          "name": "Pistol_Custom 5mm DTI",
+          "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+          "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+          "properties": {
+            "m_RepositoryId": {
+              "type": "ZGuid",
+              "value": "f755f824-bdf6-4ace-b416-abf3bae4b6d5"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddPropertyOverride": {
+        "entities": [
+          {
+            "ref": "62a3fa3bb10204be",
+            "externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+          }
+        ],
+        "properties": {
+          "m_mTransform": {
+            "type": "SMatrix43",
+            "value": {
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "position": {
+                "x": -41.79716873168945,
+                "y": 76.8116470336914,
+                "z": -18.742279052734375
+              },
+              "scale": {
+                "x": 0.9999992280696643,
+                "y": 0.9999997094098276,
+                "z": 0.9999993470301398
+              }
+            }
+          },
+          "m_rMainItemKey": {
+            "type": "SEntityTemplateReference",
+            "value": "765e5841a7fe71a2"
+          }
+        }
+      }
+    },
+    {
+      "AddEntity": [
+        "ee9cec043e5e7246",
+        {
+          "parent": {
+            "ref": "947a858c037f5078",
+            "externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype" 
+          },
+          "name": "Sniper_Jaeger7 Covert",
+          "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+          "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+          "properties": {
+            "m_RepositoryId": {
+              "type": "ZGuid",
+              "value": "eedb7f84-896d-403b-905b-11b105e7ce35"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "fb1425547e6223fa",
+        {
+          "parent": "ee9cec043e5e7246",
+          "name": "ItemSpawnerExtra",
+          "factory": "[modules:/zitemspawner.class].pc_entitytype",
+          "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+          "properties": {
+            "m_mTransform": {
+              "type": "SMatrix43",
+              "value": {
+               "rotation": {
+                  "x": 0,
+                  "y": 71.72956804480702,
+                  "z": 0
+                },
+              "position": {
+                "x": -46.3,
+                "y": -137.75,
+                "z": 23.8
+              },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                }
+              }
+            },
+            "m_rMainItemKey": {
+              "type": "SEntityTemplateReference",
+              "value": "ee9cec043e5e7246"
+            },
+            "m_eidParent": {
+              "type": "SEntityTemplateReference",
+              "value": "fffffffffffffffe",
+              "postInit": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "patchVersion": 6
+}

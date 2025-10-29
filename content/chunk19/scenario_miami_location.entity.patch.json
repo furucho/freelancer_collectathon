@@ -1,0 +1,82 @@
+{
+  "tempHash": "0056406088754691",
+  "tbluHash": "00CF14C55C3BCCA8",
+  "patch": [
+    {
+      "AddEntity": [
+        "6b45be1fd3f0bd0b",
+        {
+          "parent": "c35bfa774a7ad3a4",
+          "name": "Pistol_ICA 19 F/A Stealth Ducky",
+          "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+          "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+          "properties": {
+            "m_RepositoryId": {
+              "type": "ZGuid",
+              "value": "256ac829-2ec6-44de-8d5f-16801a0491df"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "b06429dd30796717",
+        {
+          "parent": "6b45be1fd3f0bd0b",
+          "name": "ItemSpawnerWhenFlamingo",
+          "factory": "[modules:/zitemspawner.class].pc_entitytype",
+          "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+          "properties": {
+            "m_mTransform": {
+              "type": "SMatrix43",
+              "value": {
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "position": {
+                    "x": -500,
+                    "y": -500,
+                    "z": -1
+                },
+                "scale": {
+                  "x": 0.999999576048908,
+                  "y": 1,
+                  "z": 0.999999576048908
+                }
+              }
+            },
+            "m_rMainItemKey": {
+              "type": "SEntityTemplateReference",
+              "value": "6b45be1fd3f0bd0b"
+            },
+            "m_bSpawnOnStart": {
+              "type": "bool",
+              "value": false
+            },
+            "m_eidParent": {
+              "type": "SEntityTemplateReference",
+              "value": "fffffffffffffffe",
+              "postInit": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "SubEntityOperation": [
+        "9ccd461a7ec5c298",
+        {
+          "AddEventConnection": [
+            "OnTrue",
+            "SpawnItem",
+            "b06429dd30796717"
+          ]
+        }
+      ]
+    }
+  ],
+  "patchVersion": 6
+}

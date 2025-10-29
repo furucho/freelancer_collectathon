@@ -1,0 +1,21 @@
+{
+  "tempHash": "0005C60C0B3C7977",
+  "tbluHash": "002E69256922F8F6",
+  "patch": [
+    {
+      "SubEntityOperation": [
+        "3c29b11456cf7f54",
+        {
+          "AddProperty": [
+            "m_nWeaponIndex",
+            {
+				      "type": "int32",
+				      "value": 0
+			      }
+          ]
+        }
+      ]
+    }
+  ],
+  "patchVersion": 6
+}
